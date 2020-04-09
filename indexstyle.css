@@ -1,0 +1,83 @@
+h1,
+h2,
+h3.location {
+    font-weight: 300
+}
+
+a,
+body,
+html {
+    color: #fff
+}
+
+body,
+html {
+    background-color: #020f16;
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('Images/index-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
+}
+
+.container {
+    text-align: center;
+    width: 650px;
+    margin: auto
+}
+#cvButton {
+  background-color: #c5cacc91;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h1 {
+    font-size: 52px
+}
+
+h2 {
+    margin-bottom: 0
+}
+
+h3.location {
+    margin-top: 10px
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d0d0d0;
+    cursor: pointer
+}
+
+.social {
+    padding: 0 20px;
+    font-size: 26px
+}
+
+.technologies {
+    background-color: #c5cacc91;
+    word-spacing: 10px
+    }
+
+@media(max-width:960px) {
+    .container {
+        width: 90%
+    }
+}
