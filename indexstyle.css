@@ -53,17 +53,32 @@ a:hover {
     cursor: pointer
 }
 
-.social {
-    padding: 0 20px;
-    font-size: 26px
+.socialIcons {
+    padding: 20px;
+    font-size: 26px;
+    margin: auto;
+    text-align: center;
+}
+
+#githubIcon, 
+#linkedinIcon, 
+#emailIcon {
+    padding-left: 20px;
 }
 
 .technologies {
     background-color: #020f16;
+    margin: auto;
+    width: 650px;
     word-spacing: 7px;
     font-size: 0.9em;
-    padding: 10px;
+    padding: 8px;
+    text-align: center;
     }
+
+#techHeading {
+    font-size: 28px;
+}
 
 #jsappButton,
 #cvButton,
@@ -81,11 +96,21 @@ a:hover {
 
 #mobile{
     padding-bottom: 8px;
+    margin: auto;
+    text-align: center;
 }
 
-#bio {
+.bio {
     background-color: white;
     color: black;
+    font-size: 0.9em;
+    padding-bottom: 2.5%;
+}
+
+.homepageButtons {
+    margin: auto;
+    text-align: center;
+    padding: 40px;
 }
 
 @media(max-width:960px) {
