@@ -218,9 +218,27 @@ footer {
     display: inline-block;
     color: #fff;
     padding: 15px 25px;
+    margin-left: 0.8em;
     border: 3px solid #fff;
     border-radius: 30px;
     transition: .5s ease all
+}
+
+.btn-rounded-white-treehouse {
+    display: inline-block;
+    color: black;
+    padding: 15px 25px;
+    margin-bottom: 0.6em;
+    border: 3px solid black;
+    border-radius: 30px;
+    transition: .5s ease all
+}
+
+.btn-rounded-white-treehouse:hover {
+    color: #3498db;
+    border-color: #3498db;
+    background: #fff;
+    text-decoration: none
 }
 
 .btn-rounded-white:hover {
