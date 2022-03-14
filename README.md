@@ -1,3 +1,5 @@
-# MY CV
+## Personal Portfolio
 
-This repo contains a easy to digest CV explaining my journey so far and will continue to be updated as I develop
+![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+
+https://www.youtube.com/watch?v=OPaLnMw2i_0 
